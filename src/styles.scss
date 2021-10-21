@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/* change the colors */
+$soft-grey: #F6F7F6;
+$soft-green: #A4B4AB;
+$beige: #DFC2A3;
+$purple-gentle: #A481A4;
+$velvet: #6b4f5b;
+
+* {
+  border: none!important;
+}
+
+ul {
+  list-style: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+body {
+  background: $velvet;
+}
+
+.purple-gentle-color {
+  color: $purple-gentle;
+}
+
+.soft-green-bg {
+  background: $soft-green;
+}
+
+button {
+  background: $beige!important;
+  color: white!important;
+  border: none!important;
+  margin-left: 15px;
+}
+
+h5 {
+  color: $velvet!important;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
