@@ -18,10 +18,10 @@ import { ToastrModule } from "ngx-toastr";
     CommentsComponent
   ],
   imports: [
+    CommonModule,
     BrowserAnimationsModule,
     BrowserModule,
     HttpClientModule,
-    CommonModule,
     FormsModule,
     ReactiveFormsModule,
     ToastrModule.forRoot(),

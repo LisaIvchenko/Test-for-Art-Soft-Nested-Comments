@@ -144,7 +144,7 @@ export class CommentsComponent implements OnInit, OnDestroy {
       id: this.comments.length + 1,
       author_name: 'Teacup',
       parent_id: parent_id || 0,
-      date_time: +(new Date()),
+      date_time: +(new Date()) / 1000,
       body
     } )
     localStorage.setItem( 'comments', JSON.stringify( this.comments ) )
